@@ -1,0 +1,229 @@
+body{
+	padding: 10px;
+	margin: 19PX;
+}
+
+.container {
+display: grid;
+grid-template-columns: 906px 460px ;
+grid-template-rows: 715px;
+grid-gap: 0px;укеукеукекуеу
+margin: 0px auto;укеуке
+max-width: 1366px;екууекеукеукеукеекукеуке
+grid-template-areas: 
+"header  aside  "
+}
+.container > *{
+	background-color: #C0C0C0 ;
+	
+}
+header{
+	grid-area: header;
+}
+aside{
+	grid-area: aside;
+}
+header{
+	background-image: url("https://2.bp.blogspot.com/-4JX4KUXMLp8/Ud0NFu5NeHI/AAAAAAAABL4/hTUAEsP0SXo/s1600/DSC02287.JPG");
+	background-position: 40% 60%;
+}
+aside{
+	display: grid;
+	align-content: center ;
+	padding-left: 52px;
+	padding-right: 80px;
+	
+}
+aside span{
+	font-size: 40px;
+	color: green;	
+}
+aside sub{
+	padding-top: 55px;
+	padding-bottom: 40px;
+	font-size: 20px;
+	color: black;	
+}
+aside p{
+	font-size: 20px;
+	color: black;		
+}
+
+
+.container1{
+display: grid;
+grid-template-columns: 612px 754px;
+grid-template-rows: 850px;
+grid-gap: 0px;
+margin: 0px auto;
+max-width: 1366px;
+grid-template-areas: 
+"main article "
+}
+
+main{
+	grid-area: main;
+}
+main{
+	display: grid;
+	align-content: space-around ;
+	padding-left: 60px;
+	padding-right: 100px;
+	padding-top: 55px;
+	line-height: 1.5;
+	background-color: #8FBC8F;
+}
+main sub{
+	color: black;
+	font-size: 46px;
+	padding-bottom:20px;
+}
+main span{
+	color: black;
+	font-size: 18px;
+	padding-bottom:60px;
+
+}
+
+article{
+	grid-area: article;
+}
+article {
+	display: grid;
+	padding: 0px;
+	margin: 0px ;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 754px;
+	background-color: grey;
+	line-height: 1.5;
+	
+}
+.cont1{
+	background-image: url(""); 
+	padding-left: 50px;
+	padding-right: 160px;
+	display: grid;
+	align-content: center;
+
+}
+article span{
+	font-size: 42px;
+	padding-bottom: 40px;
+	line-height: 1.5;
+}
+
+.standart_button{
+	margin-top: 50px; 
+	width: 200px;
+	height: 50px;
+	border-radius: 20px;
+}
+
+.cont2{
+	background-image: url("https://avatanplus.com/files/resources/original/568fedac13d3b15222386831.jpg");
+	padding-left: 50px;
+	padding-right: 160px;
+	display: grid;
+	align-content: center;
+}
+article span{
+	font-size: 42px;
+	padding-bottom: 40px;
+	line-height: 1.5;
+}
+
+.standart_button{
+	margin-top: 50px; 
+	width: 200px;
+	height: 50px;
+	border-radius: 20px;
+}
+
+.container3 {
+display: grid;
+grid-template-columns: 460px 906px ;
+grid-template-rows: 715px;
+grid-gap: 2px;
+margin: 0px auto;
+max-width: 1366px;
+grid-template-areas: 
+"footer section  "
+
+}
+.container3 > *{
+	background-color: grey;
+
+}
+
+footer{
+	grid-area: footer;
+}	
+section{
+	grid-area: section;
+}
+.footer1{
+	width: 460px;
+ 	height: 715px;	
+ 	background-color: yellow;
+ 	padding-top: 75px;
+ 	padding-left: 60px;
+ 	padding-right: 60px;
+ 	font-size: 42px;
+ 	font-family: cursive;
+}
+	
+section {
+	padding-left: 50px;
+	padding-top: 75px;
+	font-size: 42px;
+	font-family: cursive;
+}
+.input_contact_info{
+	margin-top: 45px;
+	padding-left: 25px;
+	width: 300px;
+	height: 50px;
+	border-radius: 20px;
+}
+.input_contact_info2{
+	width: 642px;
+	height: 160px;
+	border-radius: 20px;
+	padding-left: 25px;
+	margin-top: 15px;
+	padding-top: 0px;
+
+}
+.section2{
+	margin-top: 90px;
+	width: 500px;
+	height: 150px;
+	background-color: ;
+
+}
+.section2 bdi{
+	font-size: 16px;
+	display: grid;
+	align-items: start;
+	
+}
+.image{
+	margin-top: 20px;
+	width: 45px;
+	height: 45px;
+	background-image: url("СИНИЙ.png");
+	border-radius: 10px;
+
+}
+
+.image2{
+	margin-top: 20px;
+	margin-left: 50px;
+	width: 45px;
+	height: 45px;
+	background-image: url("КРАСНЫЙ.png");
+	border-radius: 10px;
+}
+.section2 span{
+	font-size: 16px;
+}
